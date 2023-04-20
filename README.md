@@ -18,14 +18,25 @@ Avaliação do enhancement
     • Measure of enhancement by entropy (EMEE)
     • Colourfulness contrast fog density index (CCF)
     • Average Gradient (AG)
+    
+    
 Métodos de Enhancement
 
-2.2.1. Bilateral
-2.2.2. Histogram Equalization
+2.2.1. Bilateral (https://groups.csail.mit.edu/graphics/hdrnet/)
+
+2.2.2. Histogram Equalization (https://towardsdatascience.com/histogram-equalization-5d1013626e64)
+
 2.2.3. Total Variance
+
 2.2.4. Low-Light Image Enhancement via Illumination Map Estimation
+
 2.2.5. Exposure Fusion
+
 2.2.6. Gamma Correction
+
 2.2.7. Light-DehazeNet
+
 2.2.8. Zero-Reference Deep Curve Estimation
+
 2.2.9. Low-Light Image Enhancement with Normalizing Flow
+
