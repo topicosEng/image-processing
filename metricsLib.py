@@ -10,6 +10,12 @@ def MSE(img1, img2):
     err = summed / num_pix
     return err
 
+def MSE_RGB(img1, img2):
+    MSE_R = MSE(img1[:,:,0], img2[:,:,0])
+    MSE_G = MSE(img1[:,:,1], img2[:,:,1])
+    MSE_B = MSE(img1[:,:,2], img2[:,:,2])
+    return (MSE_R+MSE_G+MSE_B)/3 
+
 def RMSE(MSE_value): #image quality
   return np.sqrt(MSE_value)
 
@@ -51,8 +57,8 @@ def somaDiffCenter8Neighborspx(img: np.array, i: int, j: int):
 
 
 def IEM(img1, img2):
-    im1 = np.copy(img1)
-    im2 = np.copy(img2)
+    im1 = cv2.cvtColor(img1, cv2.COLOR_RGB2GRAY)
+    im2 = cv2.cvtColor(img2, cv2.COLOR_RGB2GRAY)
     
     somaEnhancedImg = np.longdouble(0)
     somaRootImg = np.longdouble(0)
@@ -61,8 +67,8 @@ def IEM(img1, img2):
         if i<len(im1)-1:
           for j in range(1, len(im1[0]), 3):
               if j< len(im1[0])-1:
-                somaRootImg += somaDiffCenter8Neighborspx(np.sum(im1, 2), i, j)
-                somaEnhancedImg += somaDiffCenter8Neighborspx(np.sum(im2, 2), i, j)    
+                somaRootImg += somaDiffCenter8Neighborspx(im1, i, j)
+                somaEnhancedImg += somaDiffCenter8Neighborspx(im2, i, j)    
 
     return somaEnhancedImg / somaRootImg
 
@@ -71,7 +77,7 @@ def IEM(img1, img2):
 def PSNR(img2, MSE_value): #image quality
   if MSE_value == 0:
     return 0
-  return -10*np.log10(MSE_value/(255)**2)
+  return -10*np.log10((255)**2/MSE_value)
 
 
 
@@ -83,24 +89,29 @@ def meanImg(img1):
 def standDeviat(img1):
   return scipy.ndimage.standard_deviation(img1)
 
-def EME(img2):
-  res = 0
+def EME_AMEE(im2):
+  img2 = cv2.cvtColor(im2, cv2.COLOR_RGB2GRAY)
+  res_eme = 0
+  res_amee = 0
+  alpha = 0.5
   for i in range(1, len(img2)):
     for j in range(1, len(img2[0])):
       if np.min(img2[:i][:j]) != 0:
-        res += 20*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
+        res_eme += 20*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
+        res_amee += (alpha * (np.max(img2[:i][:j])/np.min(img2[:i][:j]))**alpha)*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
   
-  return res/(len(img2)*len(img2[0])) 
+  return res_eme/(len(img2)*len(img2[0])), res_amee/(len(img2)*len(img2[0]))
 
-def AMEE(img2):
-  res = 0
-  alpha = 0.5
-  for i in range(1,len(img2)):
-    for j in range(1,len(img2[0])):
-      if np.min(img2[:i][:j]) != 0:
-        res += (alpha * (np.max(img2[:i][:j])/np.min(img2[:i][:j]))**alpha)*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
+# def AMEE(im2):
+#   img2 = cv2.cvtColor(im2, cv2.COLOR_RGB2GRAY)
+#   res = 0
+#   alpha = 0.5
+#   for i in range(1,len(img2)):
+#     for j in range(1,len(img2[0])):
+#       if np.min(img2[:i][:j]) != 0:
+#         res += (alpha * (np.max(img2[:i][:j])/np.min(img2[:i][:j]))**alpha)*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
         
-  return res/(len(img2)*len(img2[0])) 
+#   return res/(len(img2)*len(img2[0])) 
 
 def colourIndex(img2):
   R = img2[:, :, 0]

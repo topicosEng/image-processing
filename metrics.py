@@ -1,7 +1,7 @@
 import argparse
 import os
 from matplotlib import image as mpimg
-from metricsLib import MSE, RMSE, CNR, AMBE, IEM, PSNR, EME, AMEE, colourIndex, averGrad, calcEntropy2d 
+from metricsLib import MSE, RMSE, CNR, AMBE, IEM, PSNR, EME_AMEE, colourIndex, averGrad, calcEntropy2d 
 import numpy as np
 from time import time
 import pandas as pd
@@ -42,19 +42,18 @@ def calculateImageMetrics(origPath: str, storePath: str):
         ambe = AMBE(img1, img2)
         metrics[i,2] = ambe
         print(f"{ambe}\n")
-        # print(f"Image {imgind1} iem:")
-        # iem = IEM(img1, img2)
-        # metrics[i,3] = iem
-        # print(f"{iem}\n")
+        print(f"Image {imgind1} iem:")
+        iem = IEM(img1, img2)
+        metrics[i,3] = iem
+        print(f"{iem}\n")
 
-        # print(f"Image {imgind1} eme:")
-        # eme = EME(img2)
-        # metrics[i,5] = eme
-        # print(f"{eme}\n")
-        # print(f"Image {imgind1} amee:")
-        # amee = AMEE(img2)
-        # metrics[i,6] = amee
-        # print(f"{amee}\n")
+        print(f"Image {imgind1} eme:")
+        eme, amee = EME_AMEE(img2)
+        metrics[i,5] = eme
+        print(f"{eme}\n")
+        print(f"Image {imgind1} amee:")
+        metrics[i,6] = amee
+        print(f"{amee}\n")
         print(f"Image {imgind1} ci:")
         ci = colourIndex(img2)#verificar se é a img2 que vai nessas 3 ultimas métricas
         metrics[i,7] = ci

@@ -17,6 +17,9 @@ def findEnhancer(methodName: str):
         return enhance_image_exposure
     elif methodName == "underwater":
         return rghs
+    elif methodName == "ldn":
+        return ldn
+
 
 
 ##  Histogram Equalization ##
@@ -722,3 +725,8 @@ def rghs(img):
     imgRadiance = LABStretching(sceneStretched).astype(np.uint8)
 
     return imgRadiance
+
+from inference import image_haze_removel
+
+def ldn(img):
+    return image_haze_removel(img)

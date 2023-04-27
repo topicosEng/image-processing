@@ -4,6 +4,7 @@ from matplotlib import image as mpimg
 import cv2
 from time import time
 import enhanceLib
+import torchvision
 
 def main(origPath: str, storePath: str, method_name: str):
 
@@ -23,7 +24,10 @@ def main(origPath: str, storePath: str, method_name: str):
             raise ValueError("Image has to be in gray scale!")
         print(f"Enhancing image {imgpath}\n")
         img_new = method(img)
-        mpimg.imsave(storePath+"/"+imgpath, img_new)
+        if(method_name == 'ldn'):
+            torchvision.utils.save_image(img_new, storePath+"/"+imgpath)
+        else:
+            mpimg.imsave(storePath+"/"+imgpath, img_new)
 
 if __name__ == "__main__":
 
