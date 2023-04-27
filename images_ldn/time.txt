@@ -1,2 +1,5 @@
 Enhance:
 ### This program was executed in 50.51 seconds! ###
+
+Metrics:
+### This program was executed in 13132.96 seconds! ###
