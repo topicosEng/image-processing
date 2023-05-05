@@ -20,8 +20,6 @@ def main(origPath: str, storePath: str, method_name: str):
 
     for imgpath in os.listdir(origPath):
         img = mpimg.imread(origPath+"/"+imgpath)
-        if len(img.shape) == 2:
-            raise ValueError("Image has to be in gray scale!")
         print(f"Enhancing image {imgpath}\n")
         img_new = method(img)
         if(method_name == 'ldn'):
