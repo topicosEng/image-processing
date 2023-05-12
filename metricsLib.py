@@ -2,6 +2,7 @@ from re import A
 import numpy as np
 import scipy
 import cv2
+from math import floor
 
 def MSE(img1, img2):
     squared_diff = (img1 -img2) ** 2
@@ -77,7 +78,7 @@ def IEM(img1, img2):
 def PSNR(img2, MSE_value): #image quality
   if MSE_value == 0:
     return 0
-  return -10*np.log10((255)**2/MSE_value)
+  return 10*np.log10((np.max(img2))**2/MSE_value)
 
 
 
@@ -89,18 +90,25 @@ def meanImg(img1):
 def standDeviat(img1):
   return scipy.ndimage.standard_deviation(img1)
 
-def EME_AMEE(im2):
+def EME_AME(im2):
   img2 = cv2.cvtColor(im2, cv2.COLOR_RGB2GRAY)
   res_eme = 0
-  res_amee = 0
-  alpha = 0.5
-  for i in range(1, len(img2)):
-    for j in range(1, len(img2[0])):
-      if np.min(img2[:i][:j]) != 0:
-        res_eme += 20*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
-        res_amee += (alpha * (np.max(img2[:i][:j])/np.min(img2[:i][:j]))**alpha)*np.log(np.max(img2[:i][:j])/np.min(img2[:i][:j]))
+  res_ame = 0
+
+  for i in range(1, len(im2), 3):
+        if i<len(im2)-1:
+          for j in range(1, len(im2[0]), 3):
+              if j< len(im2[0])-1:
+                min = int(np.min(img2[i-1:i+2,j-1:j+2]))
+                max = int(np.max(img2[i-1:i+2,j-1:j+2]))
+                #print(max, min, max+min)
+                if min != 0:
+                    res_eme += 20*np.log(max/min)
+                if max + min != 0 and max != min:
+                    res_ame += 20*np.log((max-min)/(max+min))
+      
   
-  return res_eme/(len(img2)*len(img2[0])), res_amee/(len(img2)*len(img2[0]))
+  return res_eme/(floor(len(img2)/3.0)*floor(len(img2[0])/3.0)), res_ame/(floor(len(img2)/3.0)*floor(len(img2[0])/3.0))
 
 # def AMEE(im2):
 #   img2 = cv2.cvtColor(im2, cv2.COLOR_RGB2GRAY)

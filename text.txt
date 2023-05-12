@@ -1,0 +1,90 @@
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_original.jpg}
+         \caption{Original}
+         \label{fig:original%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_he.jpg}
+         \caption{HE}
+         \label{fig:he%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_test_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying%}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image %/%_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics%}
+     \end{subfigure}
+        \caption{Image % results}
+        \label{fig:image % results}
+\end{figure}
+
+\vspace{5mm}

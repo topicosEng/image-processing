@@ -1,0 +1,1890 @@
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_original.jpg}
+         \caption{Original}
+         \label{fig:original20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_he.jpg}
+         \caption{HE}
+         \label{fig:he20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying20}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 20/20_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics20}
+     \end{subfigure}
+        \caption{Image 20 results}
+        \label{fig:image 20 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_original.jpg}
+         \caption{Original}
+         \label{fig:original21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_he.jpg}
+         \caption{HE}
+         \label{fig:he21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying21}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 21/21_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics21}
+     \end{subfigure}
+        \caption{Image 21 results}
+        \label{fig:image 21 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_original.jpg}
+         \caption{Original}
+         \label{fig:original22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_he.jpg}
+         \caption{HE}
+         \label{fig:he22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying22}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 22/22_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics22}
+     \end{subfigure}
+        \caption{Image 22 results}
+        \label{fig:image 22 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_original.jpg}
+         \caption{Original}
+         \label{fig:original23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_he.jpg}
+         \caption{HE}
+         \label{fig:he23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying23}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 23/23_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics23}
+     \end{subfigure}
+        \caption{Image 23 results}
+        \label{fig:image 23 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_original.jpg}
+         \caption{Original}
+         \label{fig:original24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_he.jpg}
+         \caption{HE}
+         \label{fig:he24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying24}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 24/24_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics24}
+     \end{subfigure}
+        \caption{Image 24 results}
+        \label{fig:image 24 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_original.jpg}
+         \caption{Original}
+         \label{fig:original25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_he.jpg}
+         \caption{HE}
+         \label{fig:he25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying25}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 25/25_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics25}
+     \end{subfigure}
+        \caption{Image 25 results}
+        \label{fig:image 25 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_original.jpg}
+         \caption{Original}
+         \label{fig:original26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_he.jpg}
+         \caption{HE}
+         \label{fig:he26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying26}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 26/26_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics26}
+     \end{subfigure}
+        \caption{Image 26 results}
+        \label{fig:image 26 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_original.jpg}
+         \caption{Original}
+         \label{fig:original27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_he.jpg}
+         \caption{HE}
+         \label{fig:he27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying27}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 27/27_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics27}
+     \end{subfigure}
+        \caption{Image 27 results}
+        \label{fig:image 27 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_original.jpg}
+         \caption{Original}
+         \label{fig:original28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_he.jpg}
+         \caption{HE}
+         \label{fig:he28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying28}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 28/28_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics28}
+     \end{subfigure}
+        \caption{Image 28 results}
+        \label{fig:image 28 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_original.jpg}
+         \caption{Original}
+         \label{fig:original29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_he.jpg}
+         \caption{HE}
+         \label{fig:he29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying29}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 29/29_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics29}
+     \end{subfigure}
+        \caption{Image 29 results}
+        \label{fig:image 29 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_original.jpg}
+         \caption{Original}
+         \label{fig:original30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_he.jpg}
+         \caption{HE}
+         \label{fig:he30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying30}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 30/30_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics30}
+     \end{subfigure}
+        \caption{Image 30 results}
+        \label{fig:image 30 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_original.jpg}
+         \caption{Original}
+         \label{fig:original31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_he.jpg}
+         \caption{HE}
+         \label{fig:he31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying31}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 31/31_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics31}
+     \end{subfigure}
+        \caption{Image 31 results}
+        \label{fig:image 31 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_original.jpg}
+         \caption{Original}
+         \label{fig:original32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_he.jpg}
+         \caption{HE}
+         \label{fig:he32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying32}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 32/32_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics32}
+     \end{subfigure}
+        \caption{Image 32 results}
+        \label{fig:image 32 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_original.jpg}
+         \caption{Original}
+         \label{fig:original33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_he.jpg}
+         \caption{HE}
+         \label{fig:he33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying33}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 33/33_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics33}
+     \end{subfigure}
+        \caption{Image 33 results}
+        \label{fig:image 33 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_original.jpg}
+         \caption{Original}
+         \label{fig:original34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_he.jpg}
+         \caption{HE}
+         \label{fig:he34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying34}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 34/34_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics34}
+     \end{subfigure}
+        \caption{Image 34 results}
+        \label{fig:image 34 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_original.jpg}
+         \caption{Original}
+         \label{fig:original35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_he.jpg}
+         \caption{HE}
+         \label{fig:he35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying35}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 35/35_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics35}
+     \end{subfigure}
+        \caption{Image 35 results}
+        \label{fig:image 35 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_original.jpg}
+         \caption{Original}
+         \label{fig:original36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_he.jpg}
+         \caption{HE}
+         \label{fig:he36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying36}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 36/36_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics36}
+     \end{subfigure}
+        \caption{Image 36 results}
+        \label{fig:image 36 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_original.jpg}
+         \caption{Original}
+         \label{fig:original37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_he.jpg}
+         \caption{HE}
+         \label{fig:he37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying37}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 37/37_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics37}
+     \end{subfigure}
+        \caption{Image 37 results}
+        \label{fig:image 37 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_original.jpg}
+         \caption{Original}
+         \label{fig:original38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_he.jpg}
+         \caption{HE}
+         \label{fig:he38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying38}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 38/38_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics38}
+     \end{subfigure}
+        \caption{Image 38 results}
+        \label{fig:image 38 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_original.jpg}
+         \caption{Original}
+         \label{fig:original39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_he.jpg}
+         \caption{HE}
+         \label{fig:he39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying39}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 39/39_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics39}
+     \end{subfigure}
+        \caption{Image 39 results}
+        \label{fig:image 39 results}
+\end{figure}
+
+\vspace{5mm}
+\begin{figure}
+     \centering
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_original.jpg}
+         \caption{Original}
+         \label{fig:original40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_he.jpg}
+         \caption{HE}
+         \label{fig:he40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_tv.jpg}
+         \caption{Total Variation}
+         \label{fig:tv40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_bilateral.jpg}
+         \caption{Bilateral}
+         \label{fig:bilateral40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_dhe.jpg}
+         \caption{DHE}
+         \label{fig:dhe40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_gammacorrection.jpg}
+         \caption{GC}
+         \label{fig:gc40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_ldn.jpg}
+         \caption{Light-DehazeNet}
+         \label{fig:ldn40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_lime.jpg}
+         \caption{Lime}
+         \label{fig:lime40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_underwater.jpg}
+         \caption{Underwater}
+         \label{fig:underwater40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_wavelet.jpg}
+         \caption{Wavelet}
+         \label{fig:wavelet40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.2\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_training_ying.jpg}
+         \caption{Ying2017}
+         \label{fig:ying40}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{1.033\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{image 40/40_metrics.png}
+         \caption{Metrics}
+         \label{fig:metrics40}
+     \end{subfigure}
+        \caption{Image 40 results}
+        \label{fig:image 40 results}
+\end{figure}
+
+\vspace{5mm}
